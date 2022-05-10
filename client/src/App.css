@@ -1,0 +1,113 @@
+.app {
+  font-family: Arial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+  height: 100vh;
+  background-color: #E5FCFF;
+  color: #3F637C;
+  font-size: 10px;
+  
+}
+.welcome{
+  font-size: 30px;
+  color: #023D45;
+  margin-right: 100px;
+}
+.crystal{
+  color: #F06C25;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"] {
+  margin-top: 0px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #078caa00;
+  border: 0px solid #078BAA;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+.logo1{
+  height: 55px;
+  width: 50px;
+  position:absolute;
+  left: 30px;
+  top: 30px;
+
+}
+
+input[type="submit"]:hover {
+  background: #69f0c0;
+}
+
+.button-container {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  background-color: #078BAA;
+  border-radius: 3px;
+}
+.button-container:hover{
+  background-color: #6cf0c2;
+}
+
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  animation: fadeDown 1.5s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 15px;
+  text-align: left;
+  font-weight: bold;
+  
+
+  margin-top: 2px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.label{
+  color: blue;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+@keyframes fadeDown {
+  0%{
+    opacity: 0;
+    top: -30px;
+  }
+  100%{
+    opacity: 1;
+    top: 0;
+  }
+}
